@@ -1,0 +1,41 @@
+{
+  "name": "layerback-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for LayerBack \u2014 convert diagram images (PNG/JPG/screenshots/whiteboard photos) into fully editable Visio (VSDX), PowerPoint (PPTX), draw.io, and SVG files.",
+  "type": "module",
+  "bin": {
+    "layerback-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "visio",
+    "vsdx",
+    "diagram",
+    "flowchart",
+    "converter",
+    "pptx",
+    "drawio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "author": "TopLocalAI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopLocalAI/layerback-mcp.git"
+  },
+  "homepage": "https://layerback.com/docs/api",
+  "bugs": {
+    "url": "https://github.com/TopLocalAI/layerback-mcp/issues"
+  }
+}
