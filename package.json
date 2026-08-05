@@ -1,6 +1,6 @@
 {
   "name": "layerback-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for LayerBack \u2014 convert diagram images (PNG/JPG/screenshots/whiteboard photos) into fully editable Visio (VSDX), PowerPoint (PPTX), draw.io, and SVG files.",
   "type": "module",
   "bin": {
@@ -39,5 +39,5 @@
   "bugs": {
     "url": "https://github.com/TopLocalAI/layerback-mcp/issues"
   },
-  "mcpName": "io.github.toplocalai/layerback-mcp"
+  "mcpName": "io.github.TopLocalAI/layerback-mcp"
 }
